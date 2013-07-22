@@ -1,6 +1,6 @@
 # grunt-lingua
 
-> Grunt plugin for lingua tooling
+Grunt plugin for lingua tooling
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
@@ -39,6 +39,19 @@ grunt.initConfig({
     }
   },
 })
+```
+### Workflow
+####Generate .pot file:
+```shell
+grunt lingua:extract
+```
+
+####Translations
+tool like poedit to create a catalog and make translations (outputs .po/.mo files)
+
+####Generate .json
+```shell
+grunt lingua:po2json
 ```
 
 ## Contributing
