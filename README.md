@@ -1,6 +1,6 @@
 # grunt-lingua
 
-Grunt plugin for [lingua](https://github.com/ErikAndreas/lingua) tooling
+Grunt plugin for [lingua](https://github.com/ErikAndreas/lingua) tooling, xgettext extraction for Angular.js to .pot and generating .json from .po files.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
