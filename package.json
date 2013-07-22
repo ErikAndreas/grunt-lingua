@@ -27,13 +27,14 @@
   "scripts": {
     "test": "grunt test"
   },
+  "dependencies": {
+    "po2json" : "latest"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.1",
-    "po2json" : "latest"
-
+    "grunt": "~0.4.1"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
