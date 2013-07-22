@@ -35,7 +35,7 @@ module.exports = function(grunt) {
             filename = prefix + filename;
           }
           var dest = path.join(line.dest, filename + '.json');
-          //grunt.file.write(dest, JSON.stringify(data));
+          grunt.file.write(dest, JSON.stringify(data));
           grunt.log.writeln('File "' + dest + '" created.');
         });
       });
