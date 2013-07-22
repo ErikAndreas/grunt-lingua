@@ -1,6 +1,6 @@
 # grunt-lingua
 
-Grunt plugin for lingua tooling
+Grunt plugin for [lingua](https://github.com/ErikAndreas/lingua) tooling
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
