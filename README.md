@@ -59,3 +59,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 _(Nothing yet)_
+
+## Credits
+grunt-po2json [@rkitamura](https://github.com/rkitamura/grunt-po2json)
