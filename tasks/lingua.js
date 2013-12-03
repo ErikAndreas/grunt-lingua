@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     if ('extract' === this.target) {
       var args = 'extract -F babel.cfg -k _n:1,2 -k _ -o'.split(' ');
       args.push(this.data.potDest);
-      args = args.concat(this.data.scanDirs);
+      args = args.concat(grunt.file.expand({filter:'isDirectory'}, this.data.scanDirs));
       var child = grunt.util.spawn({
         cmd: 'pybabel',
         args: args,
