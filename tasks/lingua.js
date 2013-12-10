@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       var prefix = this.data.outPrefix;
       this.files.forEach(function(line) {
         line.src.forEach(function(file) {
-          var data = po2json.parseSync(file);
+          var data = po2json.parseFileSync(file);
           var filename = path.basename(file, (path.extname(file)));
           if (prefix) {
             filename = prefix + filename;
