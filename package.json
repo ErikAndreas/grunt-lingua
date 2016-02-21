@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "po2json" : "latest"
+    "po2json": "latest"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
@@ -37,7 +37,7 @@
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
     "gruntplugin"
